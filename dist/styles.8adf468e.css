@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+
+.search-bar{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+div .form-group{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    margin: 0 auto;
+}
+div .form-group:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+#query{
+    width: 500px;
+    padding: 10px;
+    height: 38px;
+    border:1px solid #eaeaea;
+    color: gray;
+    border-right: none;
+    letter-spacing: 1px;
+}
+
+#query, .btn.focus, .btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.btn{
+    border: 1px solid #eaeaea;
+    color: gray;
+    border-left: none;
+    border-radius: 0%;
+}
+
+.header{
+    text-align: center;
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 0;
+}
+
+.header h1{
+    background-color: yellow;
+    text-shadow: 3.5px 3.5px #000;
+    letter-spacing: 2px;
+    margin-bottom: 2.5%;
+}
+
+.results-display h3{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.results-display ul{
+    width: 500px;
+    margin: 0 auto;
+    padding-left: 100px;
+    list-style: none;
+
+}
+
+.result-thumbnail{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.result-name{
+    display: inline-block;
+    padding-top: 10px;
+    color: #000;
+}
+
+.result-name span{
+    font-size: 12px;
+}
+
+.result{
+    margin: 10px auto;
+    background: white;
+}
+
+.result:hover{
+    background-color: lightgray;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.lyric-chunk{
+    font-size: 15px;
+    float: left;
+    clear: left;
+    background-color: whitesmoke;
+    max-width: 100%;
+    word-wrap: normal;
+}
+
+.lyric-chunk:hover{
+    background-color: yellow;
+}
+
+.lyrics{
+    padding: 1.65%;
+    margin-left: 33.3%;
+    display: inline-block;
+    background-color: white;
+    width: 33%;
+}
+
+.songInfo-container{
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.songInfo-container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+
+.songInfo-container .content{
+    position: relative;
+    z-index: 2;
+}
+
+.songInfo-container h3, .songInfo-container h4, .songInfo-container a{
+    font-weight: bold;
+    text-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+
+.songInfo-container h3{
+    color: yellow;
+}
+
+.songInfo-container h4{
+    color: white;
+}
+
+.songInfo-container h6{
+    color: #9a9a9a;
+}
+
+.songInfo-container a{
+    color: #b2d7fe;    
+}
+
+.text-center{
+    margin-top: 15%;
+}
+
+
+
+
+
